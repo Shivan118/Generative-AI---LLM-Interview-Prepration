@@ -1,6 +1,6 @@
 In Natural Language Processing (NLP), pre-training and fine-tuning are two crucial stages in the development and deployment of machine learning models, particularly with deep learning approaches like transformers. Here's a detailed look at the differences:
 
-##### Pre-training
+### Pre-training
 
 ###### Definition:
 Pre-training is the process of training a model on a large corpus of text data in an unsupervised manner. This stage aims to learn general language representations and underlying patterns in the text.
@@ -19,7 +19,7 @@ Pre-training is the process of training a model on a large corpus of text data i
 **Output:**
 A pre-trained model that has learned general language understanding but is not yet specialized for any specific task.
 
-##### Fine-tuning
+### Fine-tuning
 
 ###### Definition:
 Fine-tuning is the process of taking a pre-trained model and further training it on a smaller, task-specific dataset. This process is supervised and aims to adjust the model's parameters to optimize performance on a particular task.
@@ -37,7 +37,7 @@ Fine-tuning is the process of taking a pre-trained model and further training it
 **Output:**
 A fine-tuned model that is highly effective at performing a specific NLP task.
 
-##### Key Differences
+### Key Differences
 **1. Objective:**
 
 - **Pre-training:** Learn general language features and patterns from a large corpus.
@@ -63,7 +63,7 @@ A fine-tuned model that is highly effective at performing a specific NLP task.
 - **Pre-training:** Typically requires extensive computational resources and time due to the large scale of data and model size.
 - **Fine-tuning:** Generally less computationally intensive, as it operates on a pre-trained model with a smaller dataset.
 
-##### Example Workflow
+### Example Workflow
 
 **1. Pre-training:**
 
